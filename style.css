@@ -1,0 +1,181 @@
+.logo img{
+    width: 120px;
+    height: 100px;
+}
+
+/* .logo {
+  height: 00px;
+} */
+
+.main {
+  margin-top: 0;
+  padding-top: 0px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+/* .nav-link {
+    color: #FFC107;
+} */
+
+.img {
+    min-height: 500px;
+    background-image: url(bg/bg-1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.whoweare {
+    background-color: rgb(242, 239, 244);
+    margin-top: 0%;
+}
+
+.credo {
+  background-color: rgba(255,255,255,0.2);
+  display: block;
+  height: 130px;
+  margin: 0;
+  padding: 3% 10%;
+  position: absolute;
+  bottom: 30px;
+}
+
+.center2 {
+    margin-top: 5%;
+    margin-bottom: 100px;
+}
+
+.col-md-3 a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.col-md-3 a {
+    color: black;
+}
+
+.col-md-3 i:hover {
+  text-shadow: 2px 2px 8px grey;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.advantages {
+    /* background-color: rgb(249, 249, 249); */
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    display: flex;
+    /* padding-top: 110px; */
+}
+
+.adv-column {
+  background-color: rgb(249, 249, 249);
+  height: 100%;
+  padding: 30px 5px;
+}
+
+i {
+    margin-bottom: 30px;
+}
+
+.col-md-3 p {
+    font-size: 20px;
+    padding: 10px;
+    line-height: 17px;
+}
+
+.fleet {
+    background-color: #FFC107;
+    padding: 30px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+.gallery {
+    /* margin-bottom: 50px; */
+}
+
+.img2 {
+    background-image: url(bg/bg-2.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+}
+
+.prefooter {
+    height: 100px;
+    background-color: rgb(189, 192, 197);
+}
+
+.footer {
+    /* display: flex; */
+    padding-top: 20px;
+    background-color: rgb(26, 23, 23);
+    /* justify-content: center; */
+}
+
+.copyright {
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        min-height: 200px;
+
+    }
+    .copyright {
+        display: flex;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    .img2 {
+      background-size: 300%;
+    }
+}
+
+img:hover {
+  box-shadow: 2px 2px 2px 8px white;
+
+}
+
+.pageup {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    opacity: 0.5;
+}
+
+.pageup:hover {
+    opacity: 0.7;
+}
+
+.cars-slideshow {
+  height: 600px;
+}
+
+.cars-slideshow .carousel-inner {
+  height: 100%;
+}
+
+
+.carousel-item, .car-slide {
+  height: 100%;
+  width: 100%;
+}
+
+.car-slide img {
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
+}
